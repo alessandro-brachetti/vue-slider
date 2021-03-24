@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+.sliderContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  height: 100vh;
+}
+
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.controls i {
+  cursor: pointer;
+  font-size: 50px;
+  margin: 0 20px;
+}
+
+.sliderNav {
+  margin: 20px 0;
+}
+
+.sliderNav i {
+  cursor: pointer;
+  margin: 0 10px;
+  color: grey;
+}
+
+.sliderNav i.active {
+  color: black;
+}
